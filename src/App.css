@@ -1,0 +1,159 @@
+
+.page {
+  min-height: 100vh;
+  background-color: #f2f5fa;
+}
+
+.header {
+  background-color: #244a80;
+  color: white;
+  text-align: center;
+  padding: 28px 15px;
+}
+
+.header h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.container {
+  width: 90%;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.form-card,
+.result-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-card h2,
+.result-card h2 {
+  color: #244a80;
+  margin-top: 0;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #cbd2dc;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: 2px solid #9dbbe8;
+  border-color: #244a80;
+}
+
+.form-group [aria-invalid="true"] {
+  border-color: #d93025;
+}
+
+.error {
+  color: #d93025;
+  font-size: 13px;
+  margin: 6px 0 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.buttons button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.submit-btn {
+  background-color: #244a80;
+  color: white;
+  flex: 1;
+}
+
+.submit-btn:hover {
+  background-color: #18365e;
+}
+
+.reset-btn {
+  background-color: #e4e8ef;
+  color: #222;
+}
+
+.reset-btn:hover {
+  background-color: #d1d8e2;
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #e5f6e9;
+  color: #17652c;
+  font-size: 14px;
+}
+
+.result-card {
+  margin-top: 20px;
+  overflow-wrap: anywhere;
+}
+
+.result-card p {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  text-align: center;
+  padding: 18px;
+  color: #666;
+  font-size: 13px;
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 25px;
+  }
+
+  .form-card,
+  .result-card {
+    padding: 18px;
+  }
+
+  .buttons button {
+    padding: 10px;
+  }
+}

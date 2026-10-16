@@ -1,0 +1,21 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid #244a80;
+  outline-offset: 3px;
+}
